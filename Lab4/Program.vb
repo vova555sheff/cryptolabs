@@ -1,5 +1,4 @@
-﻿Imports System
-Imports System.Text
+﻿Imports System.Text
 
 Module Program
     Sub Main(args As String())
@@ -9,6 +8,8 @@ Module Program
         InverseElementOutput()
         PhiOutput()
         InverseElement2Output()
+
+        Console.ReadKey()
     End Sub
 
     Private Sub GCDOutput()
